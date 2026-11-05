@@ -1,0 +1,19 @@
+{
+  "world.js": "e8c38495-f421-4e6f-ba0d-5604388c5f67",
+  "engine9.js": "435a385b-a2a7-41bc-a0c8-e876a9253367",
+  "content8.js": "a622fb07-53a6-43b4-a0bb-fb27e47bd948",
+  "world-context.js": "c7518089-e48c-4ceb-b1f0-7abde73fc070",
+  "ai-proxy.js": "b502c79a-0c60-4ba9-9ef0-f2833831a325",
+  "countries.js": "8b9501c8-1d30-4679-8f36-bc1bdc8cbc59",
+  "content7.js": "51933c8a-c554-499b-97c3-984be0928f6b",
+  "support.js": "677c3e28-1773-4c7d-8793-ca1cac8ab6a1",
+  "sim9.js": "40320a10-99e6-44db-8cca-26426734cdbf",
+  "game-content.js": "d40f041e-88cf-46ea-92b3-e277368c5128",
+  "politics.js": "0ebe5695-bc3c-4819-aed4-a11a7478a16e",
+  "nation-map.js": "21bf81ef-f68d-47d6-b2a7-82d409218bfe",
+  "campaign.js": "nation-campaign-runtime",
+  "campaign.css": "nation-campaign-style",
+  "province-geography.js": "province-geography",
+  "province-data.js": "province-data",
+  "provinces.js": "province-economy"
+}

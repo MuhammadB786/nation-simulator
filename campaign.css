@@ -1,0 +1,72 @@
+#ns-game {--ink:#edf1f6;--muted:#a2b0c2;--gold:#e9c777;--line:#29394c;color:var(--ink)!important;background:#08111c!important;font-family:Inter,Segoe UI,Arial,sans-serif!important}
+#ns-game .ns-map {flex:1 1 520px!important;background:#0a1523!important}
+#ns-game .ns-console {flex:1 1 620px!important;max-width:760px!important;background:linear-gradient(160deg,#101d2b,#0a111d 70%)!important;border-left:1px solid #344052!important}
+#ns-game button {font:600 12px/1.4 Segoe UI,Arial,sans-serif;cursor:pointer;border-radius:5px;transition:background .15s,transform .15s}
+#ns-game button:focus-visible,#ns-game input:focus-visible,#ns-game textarea:focus-visible {outline:2px solid #e9c777!important;outline-offset:3px}
+#ns-game button:disabled {opacity:.4;cursor:not-allowed}
+#ns-game[aria-busy="true"] .ns-console {pointer-events:none}
+#ns-game button:not(:disabled):active {transform:translateY(1px)}
+#ns-game div[style*="font:700 7"],#ns-game div[style*="font:700 8"],#ns-game div[style*="font:700 6"] {font-size:10px!important;line-height:1.4!important;letter-spacing:.055em!important}
+#ns-game div[style*="font:400 10"],#ns-game div[style*="font:400 11"] {font-size:12px!important;line-height:1.5!important}
+#ns-game input,#ns-game textarea {border-radius:5px;font-size:14px!important}
+#ns-game div[style*="top:78px"]{top:116px!important}
+.ns-kicker {font:700 10px/1.4 Segoe UI,Arial;letter-spacing:.16em;text-transform:uppercase;color:#e9c777}
+.ns-title {font:500 32px/1.12 Newsreader,Georgia,serif;margin:5px 0 9px;color:#f3f0e8}
+.ns-copy {font:400 13px/1.6 Segoe UI,Arial;color:#b5c2d2;margin:0}
+.ns-section-title {font:600 19px/1.2 Newsreader,Georgia,serif;color:#f3f0e8;margin:0}
+.ns-campaign {display:flex;flex-direction:column;gap:17px;padding:18px;border:1px solid #35495e;border-radius:9px;background:linear-gradient(135deg,#182b3d,#101c2a);box-shadow:0 8px 24px #0003}
+.ns-campaign-head {display:flex;justify-content:space-between;gap:12px;align-items:start}
+.ns-pill {font:700 10px/1.3 Segoe UI,Arial;padding:5px 8px;border:1px solid #536780;border-radius:20px;color:#c6d8eb;white-space:nowrap}
+.ns-metrics {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.ns-meter {padding:12px;background:#08131f;border:1px solid #2a3b4f;border-radius:6px}
+.ns-meter-head {display:flex;justify-content:space-between;gap:8px;font-size:12px;color:#becbdd}
+.ns-meter strong {font:500 25px/1 Newsreader,Georgia; color:#f1e8cc}
+.ns-track {height:5px;background:#28394a;border-radius:4px;overflow:hidden;margin-top:10px}
+.ns-fill {height:100%;transition:width .4s}
+.ns-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.ns-action {text-align:left;background:#172a3c;border:1px solid #3a536c;color:#e9eff6;padding:12px}
+.ns-action:hover:not(:disabled) {background:#203c51}
+.ns-action strong {display:block;font-size:13px;margin-bottom:5px;color:#f4e7bd}
+.ns-action span {display:block;font:400 12px/1.5 Segoe UI,Arial;color:#b9c9d9}
+.ns-cost {display:block;font:600 10px/1.5 Segoe UI,Arial;color:#e9c777;margin-top:7px}
+.ns-mandate {display:flex;justify-content:space-between;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid #2a3b4f;font:400 13px/1.4 Segoe UI,Arial;color:#d7e1ed}
+.ns-project {padding:13px;border:1px solid #31465c;border-radius:6px;background:#0c1926;display:flex;flex-direction:column;gap:8px}
+.ns-project-top {display:flex;justify-content:space-between;gap:10px}
+.ns-project-name {font:500 18px/1.2 Newsreader,Georgia;color:#f3efdf}
+.ns-controls {display:flex;gap:7px;flex-wrap:wrap}
+.ns-button {padding:8px 12px;background:#d8bd7b;color:#101722;border:1px solid #efdcab}
+.ns-button.secondary {background:#142a3b;color:#d0e0f0;border:1px solid #425c74}
+.ns-world {display:flex;flex-direction:column;gap:12px;padding:17px;background:linear-gradient(125deg,#112738,#111a28);border:1px solid #315168;border-radius:8px}
+.ns-world-pressure {display:flex;gap:7px;flex-wrap:wrap}
+.ns-dispatch {padding:11px 0;border-top:1px solid #2a4053}
+.ns-dispatch-head {font:400 11px/1.4 Segoe UI,Arial;color:#86b8d8;margin-bottom:4px}
+.ns-dispatch strong {font:600 13px/1.5 Segoe UI,Arial;color:#e3edf6}
+.ns-dispatch p {font:400 12px/1.6 Segoe UI,Arial;color:#aabed1;margin:4px 0 0}
+.ns-intent {padding:9px 0;border-top:1px solid #293f50}
+.ns-intent-head {display:flex;justify-content:space-between;gap:10px;font:600 12px/1.4 Segoe UI,Arial;color:#c5d9ea}
+.ns-offer {padding:13px;border:1px solid #937e4a;background:#29291e;border-radius:6px;display:flex;flex-direction:column;gap:8px}
+.ns-country {border:1px solid #34495f!important;border-left:4px solid var(--country-accent,#e9c777)!important;border-radius:7px;margin-bottom:10px;padding:16px!important;background:linear-gradient(110deg,#14283b,#111d2b);transition:background .2s}
+.ns-country:hover {background:#1b3449!important}
+.ns-promise {padding:11px;text-align:left;border:1px solid #42536b;background:#102030;color:#d9e5f3;border-radius:5px}
+.ns-promise.chosen {background:#26382e;border-color:#76b78d}
+.ns-sticky-turn {position:sticky;bottom:0;background:#0b1524ed;backdrop-filter:blur(10px);padding:12px;border-top:1px solid #5c543e;z-index:5}
+.ns-province-command{display:flex;flex-direction:column;gap:15px;background:linear-gradient(140deg,#1a3044,#0b1a29);border:1px solid #4e708c;border-top:4px solid #8ac6d7;padding:18px;border-radius:8px;box-shadow:0 10px 30px #0003}
+.ns-province-select{flex:1;min-width:150px;padding:10px;background:#0a1826;color:#e5eef8;border:1px solid #5b748d;border-radius:5px;font:600 14px Segoe UI,Arial}
+.ns-bottleneck{display:flex;flex-direction:column;gap:5px;padding:12px 14px;background:#362d1e;border-left:3px solid #edc778;border-radius:4px}
+.ns-bottleneck strong{font:500 23px Newsreader,Georgia;color:#f2dfb0}
+.ns-dev-value{display:block;font:500 27px/1.3 Newsreader,Georgia;margin:5px 0}
+.ns-building-card{display:flex;flex-direction:column;gap:8px;background:#0a1928;border:1px solid #3c536b;border-radius:5px;padding:13px}
+.ns-building-card strong{font:600 14px/1.4 Segoe UI,Arial;color:#dae9f7}
+.ns-level-number{display:flex;align-items:center;justify-content:center;min-width:31px;height:31px;background:#263f53;border:1px solid #6b8ca1;border-radius:4px;font:500 23px Newsreader,Georgia;color:#bce5e7}
+.ns-household{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:11px 0;border-bottom:1px solid #34475a;font:400 12px/1.5 Segoe UI,Arial;color:#bdcddd}
+.ns-household strong{grid-column:1/-1;color:#e4edf5}
+.ns-construction-track{height:9px;background:#334052}
+.ns-province-link{padding:0;border:0;background:transparent;color:#ecd193;text-align:left;font:600 14px Segoe UI,Arial!important}
+.ns-investment-race{padding:15px;background:linear-gradient(120deg,#2b3040,#1c293c);border:1px solid #81749c;border-radius:6px;display:flex;flex-direction:column;gap:9px}
+.ns-race-score{font:600 15px/1.5 Segoe UI,Arial;color:#b7c9f6}
+.ns-change-card{display:flex;flex-direction:column;gap:7px;padding:13px;text-align:left;background:#17392f;border:1px solid #548876;border-left:4px solid #91dbb9;color:#c8e6d9}
+.ns-change-card strong{font:500 19px/1.3 Newsreader,Georgia;color:#d5f1df}
+.ns-change-card span{font:400 12px/1.6 Segoe UI,Arial}
+@media(max-width:1100px){#ns-game .ns-map{height:42vh!important;min-height:280px!important;flex-basis:100%!important}#ns-game .ns-console{max-width:none!important;flex-basis:100%!important;height:auto!important;overflow:visible!important}#ns-game{height:auto!important;overflow:visible!important}.ns-title{font-size:29px}}
+@media(max-width:500px){.ns-grid{grid-template-columns:1fr}.ns-campaign{padding:13px}.ns-title{font-size:26px}}
+@media(prefers-reduced-motion:reduce){#ns-game *,#ns-game *:before,#ns-game *:after{animation:none!important;transition:none!important}}

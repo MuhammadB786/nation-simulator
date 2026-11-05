@@ -1,0 +1,11 @@
+{
+  "name": "nation-simulator",
+  "version": "0.12.0",
+  "private": true,
+  "description": "Turn-based political strategy simulation with an AI Game Master",
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node --test test/*.test.cjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -4,6 +4,26 @@
 
 The simulation and automated checks work; browser rendering, live AI behavior and gameplay balance still need playtesting. The project is under active development and is not a finished public release.
 
+## Screenshots
+
+Actual captures of prototype v0.12 running in Microsoft Edge. These show the current interface; balance and live AI behavior remain under development.
+
+**Six distinct campaigns** — choose a government with its own pressures and objectives.
+
+![Campaign selection with six playable nations and the world map](docs/screenshots/campaign-selection.png)
+
+**Province Command** — inspect local living standards, electricity, employment and development options.
+
+![Germany's provincial map and Nordrhein-Westfalen development panel](docs/screenshots/province-command.png)
+
+**Parliament** — see the seat distribution and the governing bloc's majority.
+
+![German parliamentary seat distribution in the sample campaign](docs/screenshots/parliament.png)
+
+**World diplomacy** — track foreign relationships, ongoing conflicts and world dispatches.
+
+![Diplomatic relationships and simulated world news](docs/screenshots/world-diplomacy.png)
+
 ## Current milestone: provinces you can develop
 
 All six campaigns now simulate their administered ADM1 units: 152 provinces, states, districts and territories in total. Geography is bundled with the game; see [GEOGRAPHY.md](GEOGRAPHY.md) for roster definitions, provenance and limitations. Older authored-country saves gain province economies while preserving matching regional political state.

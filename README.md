@@ -24,6 +24,27 @@ Actual captures of prototype v0.12 running in Microsoft Edge. These show the cur
 
 ![Diplomatic relationships and simulated world news](docs/screenshots/world-diplomacy.png)
 
+<details>
+<summary>More gameplay: economy, budget, society, and campaign goals</summary>
+
+**Economic overview** — follow output, inflation, unemployment, debt, approval, and borrowing costs.
+
+![Germany's economic charts and sector breakdown](docs/screenshots/economy-overview.png)
+
+**Budget policy** — see how taxes and borrowing fund public spending, then adjust spending by department.
+
+![Budget flow diagram and spending controls](docs/screenshots/budget-policy.png)
+
+**Society** — compare political support and unrest across regions.
+
+![Regional support and unrest in Germany](docs/screenshots/society-regions.png)
+
+**Campaign mandate** — track Germany's federal consent and industrial transition goals, and choose how to spend cabinet attention.
+
+![Germany's campaign promises and governing bargains](docs/screenshots/campaign-mandate.png)
+
+</details>
+
 ## Current milestone: provinces you can develop
 
 All six campaigns now simulate their administered ADM1 units: 152 provinces, states, districts and territories in total. Geography is bundled with the game; see [GEOGRAPHY.md](GEOGRAPHY.md) for roster definitions, provenance and limitations. Older authored-country saves gain province economies while preserving matching regional political state.
